@@ -42,7 +42,7 @@ from .util import call_gdata
 Pafy = None
 
 # Select which backend to use
-backend = "internal"
+backend = "youtube-dl"
 if False:
     try:
         import youtube_dl
