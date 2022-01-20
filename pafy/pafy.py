@@ -43,7 +43,7 @@ Pafy = None
 
 # Select which backend to use
 backend = "internal"
-if os.environ.get("PAFY_BACKEND") != "internal":
+if False:
     try:
         import youtube_dl
         backend = "youtube-dl"
